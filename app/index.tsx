@@ -116,7 +116,7 @@ export default function Index() {
         <TouchableOpacity
           style={styles.alertButton}
           onPress={() =>
-            Alert.alert("You pressed the Alert Button? Are you here to free me?")
+            Alert.alert("You pressed the Alert Button.")
           }
         >
           <Text style={styles.alertText}>

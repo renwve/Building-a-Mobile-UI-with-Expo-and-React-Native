@@ -99,7 +99,7 @@ export default function Explore() {
         <TouchableOpacity
           style={styles.alertButton}
           onPress={() =>
-            Alert.alert("FREE ME Alert Button pressedFREEME")
+            Alert.alert("You pressed the Alert Button.")
           }
         >
           <Text style={styles.alertText}>
